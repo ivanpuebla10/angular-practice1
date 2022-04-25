@@ -74,7 +74,7 @@ label {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 2px;
+  border-radius: px;
   font-size: 14px;
   cursor: pointer;
   background-color: #1976d2;
@@ -145,11 +145,15 @@ app-top-bar h1 {
   padding: 16px 32px;
   margin-bottom: 8px;
   border-radius: 2px;
-  background-color: #EEEEEE;
+  background-color: #464646;
 }
 
 app-product-list {
   width: 100%;
+}
+
+app-footer {
+  background-color: rgb(46, 46, 46);
 }
 
 
