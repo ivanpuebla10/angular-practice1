@@ -22,7 +22,43 @@ export const products = [
     id: 3,
     name: 'Phone Standard',
     price: 299,
-    description: ''
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 4,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 5,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 6,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 7,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 8,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
+  },
+  {
+    id: 9,
+    name: 'Phone Standard',
+    price: 299,
+    description: 'A great phone with one of the best cameras'
   }
 ];
 

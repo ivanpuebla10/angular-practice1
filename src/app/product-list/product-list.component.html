@@ -1,6 +1,7 @@
-<h2>Products</h2>
-
-<div *ngFor="let product of products">
+<h2>Find your products at the best price</h2>
+<hr>
+<div class="products_container">
+<div class="product_box" *ngFor="let product of products">
 
 <h3>
 <a [title]="product.name + ' details'"
@@ -8,6 +9,7 @@
 {{ product.name }}
 </a>
 </h3>
+<img src="https://www.lluviadigital.com/wp-content/uploads/2020/02/e-commerce-que-es-Lluvia-Digital.jpg"/>
 
 <p *ngIf="product.description">
 Description: {{ product.description }}
@@ -22,6 +24,7 @@ Share
   (notify)="onNotify()">
 </app-product-alerts>
 
+</div>
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
