@@ -1,0 +1,11 @@
+.footer_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(68, 68, 68);
+}
+
+span {
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
