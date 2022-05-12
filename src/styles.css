@@ -160,10 +160,13 @@ app-footer {
 }
 
 .search {
-  he
   color: white;
   margin: 0;
   padding: 0;
+}
+
+.search_bar {
+  margin-right: 3em;
 }
 
 @media (max-width: 700px) {
