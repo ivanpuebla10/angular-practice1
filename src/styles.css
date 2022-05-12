@@ -111,7 +111,7 @@ label {
 app-top-bar {
   width: 100%;
   height: auto;
-  background-color: rgb(32, 32, 32);
+  background-color: #131921;
   opacity: 0.9;
   padding: 16px;
   display: flex;
@@ -159,7 +159,8 @@ app-footer {
   background-color: rgb(46, 46, 46);
 }
 input {
-  height: 1em;
+  height: 2em;
+  margin: 0;
   
 }
 .search {
@@ -178,6 +179,16 @@ input {
   display: flex;
   height: 100%;
   align-items: center;
+}
+
+.sub_bar_container {
+  background-color: #232F3E;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub_bar_container span{
+color: white;
 }
 @media (max-width: 700px) {
   .product_box {

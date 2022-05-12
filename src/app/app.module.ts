@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { FooterComponent } from './footer/footer.component';
+import { SubTopBarComponent } from './sub-top-bar/sub-top-bar.component';
 
 @NgModule({
   imports: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    FooterComponent
+    FooterComponent,
+    SubTopBarComponent
   ],
   bootstrap: [
     AppComponent
