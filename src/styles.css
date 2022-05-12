@@ -159,6 +159,21 @@ app-footer {
   background-color: rgb(46, 46, 46);
 }
 
+.search {
+  he
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .product_box {
+    min-width: 70%;
+  }
+  img {
+    min-width: 70%;
+  }
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
