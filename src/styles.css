@@ -152,6 +152,7 @@ app-top-bar h1 {
 }
 
 app-product-list {
+  padding: 0;
   width: 100%;
 }
 
@@ -163,6 +164,7 @@ input {
   margin: 0;
   
 }
+
 .search {
   color: white;
   margin: 0;
@@ -192,6 +194,10 @@ input {
 .sub_bar_container span{
 color: white;
 margin: 1em
+}
+
+.products_container {
+  background-color: #EAEDED;
 }
 @media (max-width: 700px) {
   .product_box {
