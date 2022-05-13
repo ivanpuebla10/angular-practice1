@@ -184,11 +184,14 @@ input {
 .sub_bar_container {
   background-color: #232F3E;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 2em;
 }
 
 .sub_bar_container span{
 color: white;
+margin: 1em
 }
 @media (max-width: 700px) {
   .product_box {
