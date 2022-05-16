@@ -154,6 +154,7 @@ app-top-bar h1 {
 app-product-list {
   padding: 0;
   width: 100%;
+  
 }
 
 app-footer {
@@ -163,6 +164,10 @@ input {
   height: 2em;
   margin: 0;
   
+}
+
+.product_box {
+  background-color: white;
 }
 
 .search {
