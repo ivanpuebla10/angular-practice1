@@ -202,9 +202,7 @@ color: white;
 margin: 1em
 }
 
-.products_container {
-  background-color: #EAEDED;
-}
+
 @media (max-width: 700px) {
   .product_box {
     min-width: 70%;
