@@ -3,16 +3,18 @@
 <div class="products_container">
 <div class="product_box" *ngFor="let product of products">
 
-<h3>
-<a [title]="product.name + ' details'"
-[routerLink]="['/products', product.id]">
-{{ product.name }}
-</a>
-</h3>
+
 <img src="https://www.lluviadigital.com/wp-content/uploads/2020/02/e-commerce-que-es-Lluvia-Digital.jpg"/>
 
+<h3>
+  <a [title]="product.name + ' details'"
+  [routerLink]="['/products', product.id]">
+  {{ product.name }}
+  </a>
+</h3>
+
 <p *ngIf="product.description">
-Description: {{ product.description }}
+{{ product.description }}
 </p>
 
 <button type="button" (click)="share()">
